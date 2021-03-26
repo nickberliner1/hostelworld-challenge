@@ -1,0 +1,45 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid grey;
+
+}
+
+.image {
+    width: 500px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.603);
+    width: 500px;
+    z-index: 5;
+    height: 75px;
+    margin-top: -75px;
+}
+
+.title {
+    color: white;
+}
+
+.button {
+    cursor: pointer;
+    padding: 1em;
+    font-size: 0.8em;
+    background-color: #f25621;
+    color: white;
+}
